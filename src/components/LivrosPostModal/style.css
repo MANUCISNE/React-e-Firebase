@@ -1,0 +1,51 @@
+.livros-post-modal-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.229);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.livros-post-modal-closer{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.livros-post-modal-content{
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    border-radius: 18px 0;
+    overflow: hidden;
+}
+
+.livros-post-modal-content header{
+    background-color: #083208;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.livros-post-modal-content h3{
+    color: white;
+    margin: 0;
+}
+
+.livros-post-modal-content form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+}

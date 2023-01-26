@@ -1,0 +1,20 @@
+.btns{
+    font-size: 1.2rem;
+    font-family: Arial;
+    font-weight: 700;
+
+    background-color: #447CE2;
+    border: 0;
+
+    color: #fff;
+
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+    background-color: #4a80e3;
+}
+

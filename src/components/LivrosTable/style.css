@@ -1,0 +1,28 @@
+.livros-table-header{
+    background-color: #083230;
+    color: white;
+    font-family: arial;
+}
+
+.livros-table-box{
+    width: 80vh;
+    border-spacing: 0;
+    margin: 20px;
+    border-radius: 18px 0;
+    overflow: hidden;
+
+}
+
+.livros-table-body{
+    background-color: rgb(163, 161, 161);
+
+}
+
+.delete {
+    background-color: red;
+}
+
+.delete:hover {
+    background-color: rgb(203, 79, 79);
+    
+}
